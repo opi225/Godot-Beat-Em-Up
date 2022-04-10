@@ -1,0 +1,299 @@
+[gd_scene load_steps=65 format=2]
+
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0007_anio.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0009_anio.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0001_anio.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0010_anio.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0011_anio.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0006_anio.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0003_anio.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0001_anio.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0006_anio.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0012_anio.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0002_anio.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0003_anio.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0002_anio.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0009_anio.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0010_anio.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0012_anio.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0005_anio.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0004_anio.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0005_anio.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0007_anio.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Walk Sprites/RCG_Kyoko_walk0008_anio.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0011_anio.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0008_anio.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Idle Sprites/RCG_Kyoko_idle0004_anio.png" type="Texture" id=24]
+[ext_resource path="res://Scenes/Player.gd" type="Script" id=25]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0004_anio.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0002_anio.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0001_anio.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0003_anio.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0005_anio.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0002_anio.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0002_anio.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0004_anio.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0003_anio.png" type="Texture" id=34]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0008_anio.png" type="Texture" id=35]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0001_anio.png" type="Texture" id=36]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0012_anio.png" type="Texture" id=37]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0009_anio.png" type="Texture" id=38]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0004_anio.png" type="Texture" id=39]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0010_anio.png" type="Texture" id=40]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0007_anio.png" type="Texture" id=41]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0006_anio.png" type="Texture" id=42]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0009_anio.png" type="Texture" id=43]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0005_anio.png" type="Texture" id=44]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0008_anio.png" type="Texture" id=45]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0005_anio.png" type="Texture" id=46]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0006_anio.png" type="Texture" id=47]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0011_anio.png" type="Texture" id=48]
+[ext_resource path="res://Sprites/Snap Kick/RCG_Kyoko_qc2_snapkick0007_anio.png" type="Texture" id=49]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0007_anio.png" type="Texture" id=50]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0006_anio.png" type="Texture" id=51]
+[ext_resource path="res://Sprites/Back Kick/RCG_Kyoko_qc5_backkick0003_anio.png" type="Texture" id=52]
+[ext_resource path="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0001_anio.png" type="Texture" id=53]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0002_anio.png" type="Texture" id=54]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0005_anio.png" type="Texture" id=55]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0004_anio.png" type="Texture" id=56]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0003_anio.png" type="Texture" id=57]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0006_anio.png" type="Texture" id=58]
+[ext_resource path="res://Sprites/Chop/RCG_Kyoko_qc1_chop0001_anio.png" type="Texture" id=59]
+
+[sub_resource type="Animation" id=5]
+resource_name = "backKick"
+length = 1.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( -8, -30 ), Vector2( -8, -31 ), Vector2( -13, -29 ), Vector2( -12, -30 ), Vector2( 4, -35 ), Vector2( 2, -30 ), Vector2( 0, -29 ), Vector2( 0, -28 ), Vector2( 1, -28 ), Vector2( 4, -29 ), Vector2( 4, -32 ), Vector2( 1, -33 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimatedSprite:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "backKick " ]
+}
+tracks/3/type = "method"
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 1.2 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "attack_finished"
+} ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "chop"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -31 ), Vector2( -1, -31 ), Vector2( 13, -31 ), Vector2( 11, -31 ), Vector2( 4, -32 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimatedSprite:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "chop" ]
+}
+tracks/3/type = "method"
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0.6 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "attack_finished"
+} ]
+}
+
+[sub_resource type="Animation" id=1]
+resource_name = "idle"
+length = 1.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -32 ), Vector2( 0, -33 ), Vector2( -1, -34 ), Vector2( -2, -34 ), Vector2( -2, -33 ), Vector2( -2, -32 ), Vector2( 0, -32 ), Vector2( 0, -33 ), Vector2( 0, -34 ), Vector2( 0, -34 ), Vector2( 0, -33 ), Vector2( 0, -32 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimatedSprite:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "idle" ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "walk"
+length = 1.1
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.4, 0.5, 0.6, 0.7, 0.8, 1, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -32 ), Vector2( 0, -32 ), Vector2( 0, -34 ), Vector2( 0, -34 ), Vector2( 0, -32 ), Vector2( 0, -32 ), Vector2( 0, -33 ), Vector2( 0, -34 ), Vector2( 0, -34 ), Vector2( 0, -33 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimatedSprite:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "walk" ]
+}
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 24 ), ExtResource( 17 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 23 ), ExtResource( 2 ), ExtResource( 15 ), ExtResource( 22 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 26 ), ExtResource( 30 ), ExtResource( 42 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "snapKick",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 36 ), ExtResource( 32 ), ExtResource( 52 ), ExtResource( 39 ), ExtResource( 44 ), ExtResource( 51 ), ExtResource( 50 ), ExtResource( 45 ), ExtResource( 38 ), ExtResource( 40 ), ExtResource( 48 ), ExtResource( 37 ) ],
+"loop": true,
+"name": "backKick ",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 59 ), ExtResource( 54 ), ExtResource( 57 ), ExtResource( 56 ), ExtResource( 55 ), ExtResource( 58 ) ],
+"loop": true,
+"name": "chop",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 13 ), ExtResource( 7 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 9 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 14 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 31 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 41 ), ExtResource( 35 ), ExtResource( 43 ) ],
+"loop": true,
+"name": "cresentKick",
+"speed": 5.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+scale = Vector2( 2, 2 )
+script = ExtResource( 25 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/backKick = SubResource( 5 )
+anims/chop = SubResource( 4 )
+anims/idle = SubResource( 1 )
+anims/walk = SubResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -8, -30 )
+frames = SubResource( 3 )
+animation = "backKick "

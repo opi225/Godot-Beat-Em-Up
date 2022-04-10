@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/RCG_Kyoko_qc3_crescentkick0006_anio.png-2199db6d68a6c29048a97a976185b7d1.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Sprites/Cresent Kick/RCG_Kyoko_qc3_crescentkick0006_anio.png"
+dest_files=[ "res://.import/RCG_Kyoko_qc3_crescentkick0006_anio.png-2199db6d68a6c29048a97a976185b7d1.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
