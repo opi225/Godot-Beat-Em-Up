@@ -71,7 +71,6 @@ func move_state(delta):
 	velocity = move_and_slide(velocity)
 	
 	velocity = velocity.move_toward(input_vector * MAX_SPEED, ACCELERATION * delta)
-	zValue += velocity.y
 	
 	if Input.is_action_just_pressed("LAttack"):
 		state = ATTACK
